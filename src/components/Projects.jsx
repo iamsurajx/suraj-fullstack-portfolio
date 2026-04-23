@@ -53,8 +53,8 @@ const projects = [
     features:['URL scraper for Amazon/Flipkart','Custom themes & branding','Click tracking dashboard','Razorpay subscription','Redis caching'],
     learned:['Web scraping ethics','Payment integration','Analytics design'],
     tech:['React','Express','MongoDB','Redis','Razorpay','Puppeteer'],
-    github:'https://github.com/arshitjain12/packtrack',
-    live:'#',
+    github:'https://github.com/imsurajx/packtrack-vo1',
+    live:'https://packtrack-vo1.vercel.app/',
     gradient:'from-orange-500 to-pink-600'
   }
 ]

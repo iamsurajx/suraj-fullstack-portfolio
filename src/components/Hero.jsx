@@ -47,7 +47,7 @@ export default function Hero() {
               {/* replace the two buttons div */}
               <div className="mt-8 flex flex-wrap gap-3">
                 <a href="#projects" className="px-6 py-3 rounded-xl bg-violet-500 hover:bg-violet-600 text-white font-medium shadow-[0_8px_30px_rgba(139,92,246,0.3)] transition">View Projects</a>
-                <a href="#contact" className="px-6 py-3 rounded-xl border border-white/15 hover:border-violet-500/50 backdrop-blur transition">Contact Me</a>
+                <a href="#contact" className="px-6 py-3 rounded-xl border border-white/15 hover:border-violet-500/50 backdrop-blur transition">Hire Me</a>
                 <a href="/public/Suraj_Chaudhary_MERN_Dev.pdf" download className="px-5 py-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-sm flex items-center gap-2 transition">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" /></svg>
                   Download CV
