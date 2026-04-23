@@ -30,10 +30,19 @@ export default function About() {
         {/* LEFT */}
         <div className="lg:col-span-3">
           <p className="text- leading-relaxed text-zinc-300">
-            I Am MERN Stack Developer with hands-on experience in building full-stack web applications. I've completed a 6-month internship at Orbiqe Technology Pvt. Ltd. where I developed responsive UI components and RESTful APIs.
+            I am a Full Stack MERN Developer with hands-on experience in building scalable and responsive web applications. I have completed a 6-month internship at Orbiqe Technology Pvt. Ltd. as an AI & DevOps Trainee, where I worked on REST APIs, backend logic, and modern UI development.
           </p>
+
           <p className="mt-6 text- leading-relaxed text-zinc-300">
-            I'm experienced with AI-assisted tools like ChatGPT and Copilot, and I'm passionate about creating scalable solutions. I hold a Full Stack Web Developer certification from Youtube & Udemy (2025).
+            Along with my internship, I have worked as a freelance frontend developer, building 10+ real-world responsive websites, and currently leading development at WebNirmit, where I focus on AI-powered and full-stack solutions. I have built multiple production-ready applications and consistently contribute on GitHub with 500+ commits.
+          </p>
+
+          <p className="mt-6 text- leading-relaxed text-zinc-300">
+            My core expertise includes React.js, Node.js, Express, and MongoDB, along with strong knowledge of REST API development and modern UI frameworks like Tailwind CSS. I also leverage AI tools like ChatGPT and Copilot to improve development speed and efficiency.
+          </p>
+
+          <p className="mt-6 text- leading-relaxed text-zinc-300">
+            I hold a Full Stack Web Development certification (2025) and an MCA degree in Computer Science. I am focused on building efficient, scalable, and production-ready applications while continuously improving my skills in modern web technologies.
           </p>
 
           <div className="grid sm:grid-cols-2 gap-4 mt-10">
@@ -56,9 +65,13 @@ export default function About() {
               <div className="absolute left- top-2 bottom-2 w-px bg-white/10"></div>
               <div className="space-y-8">
                 {[
-                  ['2023', 'MCA Computer Science', 'Jharkhand Rai University, Ranchi.'],
+                  ['2026', 'Cloud Infrastructure Foundations', 'Oracle University, Online.'],
+                  ['2026', 'Trainee @ Orbiqe Technology Pvt. Ltd.', 'AI & DevOps Engineering'],
                   ['2025', 'Full Stack Web Dev Certification', 'Udemy'],
-                  ['2026', 'Internship @ Orbiqe Technology Pvt. Ltd.', 'Reactjs & Nodejs Developer'],
+                  ['2024', 'MCA Computer Science', 'Jharkhand Rai University, Ranchi.'],
+                  ['2022', 'BCA Computer Science', 'Magadh University, Bodh Gaya.'],
+
+                  ,
                 ].map(([y, t, p]) => (
                   <div key={y} className="relative pl-8">
                     <div className="absolute left-0 top-1.5 w-2.5 h-2.5 rounded-full bg-violet-500 shadow-[0_0_12px_rgba(139,92,246,0.6)]"></div>
@@ -91,12 +104,63 @@ export default function About() {
             ))}
           </div>
 
+
+          {/* Experience */}
+
           <div className="mt-10 space-y-4">
+            {/* WebNirmit */}
             <div className="rounded-xl border border-violet-500/20 bg-gradient-to-br from-violet-500/10 to-transparent p-4 backdrop-blur">
-              <div className="flex gap-3"><div>💼</div><div><div className="font-semibold text-violet-400">Internship @ Orbiqe Technology Pvt. Ltd.</div><div className="text-sm text-zinc-400 mt-0.5">Reactjs & Nodejs Developer · 6 Months (2026)</div></div></div>
+              <div className="flex gap-3">
+                <div>💼</div>
+                <div>
+                  <div className="font-semibold text-violet-400">WebNirmit - Lead Software Developer</div>
+                  <div className="text-sm text-zinc-400 mt-0.5">AI & Tech Support · Present (2026)</div>
+                </div>
+              </div>
             </div>
+
+            {/* AI & DevOps Trainee */}
+            <div className="rounded-xl border border-indigo-500/20 bg-gradient-to-br from-indigo-500/10 to-transparent p-4 backdrop-blur">
+              <div className="flex gap-3">
+                <div>🤖</div>
+                <div>
+                  <div className="font-semibold text-indigo-400">AI & DevOps Trainee @ Orbiqe Technology Pvt. Ltd.</div>
+                  <div className="text-sm text-zinc-400 mt-0.5">AI & DevOps Engineering · 6 Months (2026)</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Freelancer */}
             <div className="rounded-xl border border-cyan-500/20 bg-gradient-to-br from-cyan-500/10 to-transparent p-4 backdrop-blur">
-              <div className="flex gap-3"><div>🎓</div><div><div className="font-semibold text-cyan-400">Full Stack Certification</div><div className="text-sm text-zinc-400 mt-0.5">Youtube / Udemy ·2022 - 2025</div></div></div>
+              <div className="flex gap-3">
+                <div>💻</div>
+                <div>
+                  <div className="font-semibold text-cyan-400">Frontend Developer (Freelance)</div>
+                  <div className="text-sm text-zinc-400 mt-0.5">Built 10+ responsive web apps · 2024 - Present</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Open Source Contributor */}
+            <div className="rounded-xl border border-emerald-500/20 bg-gradient-to-br from-emerald-500/10 to-transparent p-4 backdrop-blur">
+              <div className="flex gap-3">
+                <div>🚀</div>
+                <div>
+                  <div className="font-semibold text-emerald-400">Web Development @ OctaNet Services Pvt Ltd. · Internship</div>
+                  <div className="text-sm text-zinc-400 mt-0.5">React & Tailwind CSS projects · 2023 - 2024</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Full Stack Certification */}
+            <div className="rounded-xl border border-amber-500/20 bg-gradient-to-br from-amber-500/10 to-transparent p-4 backdrop-blur">
+              <div className="flex gap-3">
+                <div>🎓</div>
+                <div>
+                  <div className="font-semibold text-amber-400">Full Stack Certification</div>
+                  <div className="text-sm text-zinc-400 mt-0.5">Youtube / Udemy · 2022 - 2025</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
