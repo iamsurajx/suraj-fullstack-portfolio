@@ -86,9 +86,9 @@ const certificates = [
     title: 'AI & DevOps Engineering ',
     issuer: 'BSDM - Orbiqe Technologies Pvt. Ltd.',
     date: 'APR 2026',
-    image: '',
+    image: 'https://media.licdn.com/dms/image/v2/D562DAQGBC2zNQPuHVw/profile-treasury-image-shrink_1280_1280/B56Z3YvmA9HUAQ-/0/1777457862367?e=1778065200&v=beta&t=rHPP8h6DlSt1PML9aeSffnZ40iKEx3EHUOP3c9zpcxU',
     credentialId: '',
-    link: '',
+    link: 'https://www.linkedin.com/in/surajchoudhary01/overlay/Position/2872458754/treasury/?profileId=ACoAACUr2fIB8KAJtj4gjaB8s7JvxIttb0tuJyg',
     skills: ['Python Basics', 'Data Structures', 'Object-Oriented Programming', 'Web Development with Django', 'Data Analysis with Pandas', 'Automation with Python']
   }
 
