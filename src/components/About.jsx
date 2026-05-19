@@ -70,7 +70,6 @@ export default function About() {
                   ['2025', 'Full Stack Web Dev Certification', 'Udemy'],
                   ['2024', 'MCA Computer Science', 'Jharkhand Rai University, Ranchi.'],
                   ['2022', 'BCA Computer Science', 'Magadh University, Bodh Gaya.'],
-
                   ,
                 ].map(([y, t, p]) => (
                   <div key={y} className="relative pl-8">
@@ -113,8 +112,8 @@ export default function About() {
               <div className="flex gap-3">
                 <div>💼</div>
                 <div>
-                  <div className="font-semibold text-violet-400">WebNirmit - Lead Software Developer</div>
-                  <div className="text-sm text-zinc-400 mt-0.5">AI & Tech Support · Present (2026)</div>
+                  <div className="font-semibold text-violet-400">Open Lens Media Pvt. Ltd. - MERN Full-Stack Developer</div>
+                  <div className="text-sm text-zinc-400 mt-0.5"> MERN Developer· Present (2026)</div>
                 </div>
               </div>
             </div>
