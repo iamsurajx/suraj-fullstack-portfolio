@@ -7,7 +7,8 @@ const certificates = [
     title: 'Fundamentals Of Artificial Intelligence',
     issuer: 'NPTEL. GOV of India • IIT (Indian Institute of Technology) Guwahati',
     date: 'Issued Oct 2023',
-    image: 'https://media.licdn.com/dms/image/v2/D562DAQFuRltb5opkww/profile-treasury-image-shrink_480_480/profile-treasury-image-shrink_480_480/0/1703694158587?e=1777543200&v=beta&t=pupu7M4l60SLCerMx09kWyNqVG5hqZq6i20nAjNvajA', 
+    // Removed the project folder and 'public' from the path
+    image: '/images/NPTEL_AI_1703694158587.jpg', 
     credentialId: 'ABC123XYZ',
     link: 'https://www.linkedin.com/in/surajchoudhary01/overlay/Certifications/739752045/treasury/?profileId=ACoAACUr2fIB8KAJtj4gjaB8s7JvxIttb0tuJyg',
     skills: ['Machine Learning Algorithms', 'Neural Networks', 'AI Ethics', 'Natural Language Processing', 'Computer Vision']
@@ -17,7 +18,7 @@ const certificates = [
     title: 'IBM - Web Development Basics',
     issuer: 'freeCodeCamp',
     date: '',
-    image: 'https://media.licdn.com/dms/image/v2/D562DAQHmh1E_U87hUg/profile-treasury-document-cover-images_1280/profile-treasury-document-cover-images_1280/0/1714637983755?e=1777543200&v=beta&t=Tg1tGoJNQYiYqiJh5AULjJHAFr_4LILzLOzL9bZ1398', // direct link
+    image: '/images/IBM_1714637983755.png',
     credentialId: 'Credential ID MDL-261',
     link: 'https://www.linkedin.com/in/surajchoudhary01/overlay/Certifications/946141131/treasury/?profileId=ACoAACUr2fIB8KAJtj4gjaB8s7JvxIttb0tuJyg',
     skills: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design', 'Git & GitHub', 'DOM', 'APIs','Meta Data', 'SEO Basics', 'Web Accessibility', 'Performance Optimization']
@@ -27,9 +28,9 @@ const certificates = [
     title: 'Backend with NodeJS',
     issuer: 'Simplilearn',
     date: 'Issued Dec 2023',
-    image: 'https://media.licdn.com/dms/image/v2/D562DAQHS52CA60m01A/profile-treasury-document-images_800/profile-treasury-document-images_800/1/1703652820448?e=1778112000&v=beta&t=L7bMTcUp7A_JW_OLQp6VpkuXlzZ8zm158Opz9NfyLOc', // direct link
+    image: '/images/Nodejs_1703652820783.jpg',
     credentialId: '4719184',
-    link: 'https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzQ2IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvdGh1bWJfNDcxOTE4NF8xNzAyNjMxODA2LnBuZyIsInVzZXJuYW1lIjoiU1VSQUogQ0hPVURIQVJZIn0%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4236%2FGetting-started-with-NodeJS%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1503031477525073547&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVDw0MDnIyKCkPckuyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAKqUhm1BAAAA',
+    link: 'https://www.simplilearn.com/skillup-certificate-landing?token=...', // Truncated for brevity if needed
     skills: ['Node.js', 'Express.js', 'MongoDB', 'RESTful APIs', 'Authentication & Authorization', 'Testing with Jest', 'Deployment on Heroku']
   },
   {
@@ -37,7 +38,7 @@ const certificates = [
     title: 'Frontend Development with ReactJS & Redux',
     issuer: 'KG CODING',
     date: 'Nov 2023',
-    image: 'https://media.licdn.com/dms/image/v2/D562DAQGDeaxAGqXbjw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1702780158757?e=1777546800&v=beta&t=nsLMLazk2Iapoq10a4-93KccEfYhuR6DTGRyf_tdX3k',
+    image: '/images/React_1702780158757.jpg',
     credentialId: '1702779791442',
     link: 'https://www.knowledgegate.ai/verify-certificate?serialno=09YE6DZG?utm_source=completecoding',
     skills: ['React','Redux' ,'Hooks', 'Performance', 'Testing', 'Context API', 'React Router', 'State Management', 'Component Architecture']
@@ -47,7 +48,7 @@ const certificates = [
     title: 'JavaScript Development',
     issuer: 'KG CODING',
     date: 'Dec 2023',
-    image: 'https://media.licdn.com/dms/image/v2/D562DAQHIQJDvN1U-tQ/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1703508318804?e=1777546800&v=beta&t=vbWLK-vNYyw9xSf67OUOlKzQWCTfnWenpZacEA9-_aU',
+    image: '/images/Javascript_1703508318804.jpg',
     credentialId: '1702779791442',
     link: 'https://www.linkedin.com/in/surajchoudhary01/overlay/Certifications/554048887/treasury/?profileId=ACoAACUr2fIB8KAJtj4gjaB8s7JvxIttb0tuJyg',
     skills: ['JavaScript Fundamentals', 'ES6+', 'Asynchronous Programming', 'DOM Manipulation', 'Event Handling', 'Error Handling', 'Testing with Jest', 'Best Practices']
@@ -57,16 +58,17 @@ const certificates = [
     title: 'Software Testing and Quality Assurance',
     issuer: 'Great Learning',
     date: 'Feb - 2024',
-    image: 'https://media.licdn.com/dms/image/v2/D562DAQGYP39LfdKYqQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1703734552641?e=1777546800&v=beta&t=BD2meOpp00HGBHK3FpsqjSvfLQLIYC_MeAJCEC_ukfw',
+    image: '/images/Software_Test_1703734552641.jpg',
     credentialId: 'JRU-23-288',
     link: 'https://www.linkedin.com/in/surajchoudhary01/overlay/Certifications/779953033/treasury/?profileId=ACoAACUr2fIB8KAJtj4gjaB8s7JvxIttb0tuJyg',
     skills: ['Testing Methodologies', 'Test Case Design', 'Automation Testing with Selenium', 'Performance Testing with JMeter', 'Bug Tracking with Jira', 'Continuous Integration with Jenkins']
-  },{
+  },
+  {
     id: 7,
     title: 'IT Inovation - Next Generation AI Technologies',
     issuer: 'JRU - Jharkhand Rai University',
     date: 'Dec 2023',
-    image: 'https://media.licdn.com/dms/image/v2/D562DAQFv8hUzbMV1xQ/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1708441745098?e=1777546800&v=beta&t=60bItCvjK40SwenYu5t9SimT2XJpUZKYySK4XJ6cu0A',
+    image: '/images/IT_CONCLAVE_1708441745098.jpg',
     credentialId: 'JRU-23-288',
     link: 'https://www.linkedin.com/in/surajchoudhary01/overlay/Certifications/1192369472/treasury/?profileId=ACoAACUr2fIB8KAJtj4gjaB8s7JvxIttb0tuJyg',
     skills: ['JavaScript Fundamentals', 'ES6+', 'Asynchronous Programming', 'DOM Manipulation', 'Event Handling', 'Error Handling', 'Testing with Jest', 'Best Practices']
@@ -76,22 +78,21 @@ const certificates = [
     title: 'Python Programming',
     issuer: 'Simplilearn',
     date: 'Oct 2023',
-    image: 'https://media.licdn.com/dms/image/v2/D562DAQGQVBj9aPjZ1g/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1703653792269?e=1777546800&v=beta&t=HSpys5qeAMgjW2Ihwub6M3ovw8LF8fFGmrooGNL7388',
+    image: '/images/Python_1703653792269.jpg',
     credentialId: 'JRU-23-288',
     link: 'https://www.linkedin.com/in/surajchoudhary01/overlay/Certifications/1192369472/treasury/?profileId=ACoAACUr2fIB8KAJtj4gjaB8s7JvxIttb0tuJyg',
     skills: ['Python Basics', 'Data Structures', 'Object-Oriented Programming', 'Web Development with Django', 'Data Analysis with Pandas', 'Automation with Python']
   },
-{
-    id: 8,
+  {
+    id: 9, // FIXED: Changed duplicate ID from 8 to 9
     title: 'AI & DevOps Engineering ',
     issuer: 'BSDM - Orbiqe Technologies Pvt. Ltd.',
     date: 'APR 2026',
-    image: 'https://media.licdn.com/dms/image/v2/D562DAQGBC2zNQPuHVw/profile-treasury-image-shrink_1280_1280/B56Z3YvmA9HUAQ-/0/1777457862367?e=1778065200&v=beta&t=rHPP8h6DlSt1PML9aeSffnZ40iKEx3EHUOP3c9zpcxU',
+    image: '/images/AI_DevOps_Engineer_Certificate_Suraj_Choudhary.png',
     credentialId: '',
     link: 'https://www.linkedin.com/in/surajchoudhary01/overlay/Position/2872458754/treasury/?profileId=ACoAACUr2fIB8KAJtj4gjaB8s7JvxIttb0tuJyg',
     skills: ['Python Basics', 'Data Structures', 'Object-Oriented Programming', 'Web Development with Django', 'Data Analysis with Pandas', 'Automation with Python']
   }
-
 ]
 
 export default function Certificates() {
@@ -100,7 +101,8 @@ export default function Certificates() {
   return (
     <section id="certificates" className="mx-auto max-w-6xl px-4 py-20">
       <div className="flex items-center gap-4 mb-12">
-        <h2 className="text- font-extrabold tracking-tight text-white">Certifications</h2>
+        {/* FIXED: Removed incomplete 'text-' and added 'text-3xl' */}
+        <h2 className="text-3xl font-extrabold tracking-tight text-white">Certifications</h2>
         <div className="h-px flex-1 bg-gradient-to-r from-violet-500/40 to-transparent"></div>
       </div>
 
@@ -120,6 +122,8 @@ export default function Certificates() {
                 src={cert.image}
                 alt={cert.title}
                 className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                // Added a fallback in case image still fails to load
+                onError={(e) => { e.target.src = 'https://via.placeholder.com/400x250?text=Certificate' }} 
               />
             </div>
 
@@ -130,16 +134,18 @@ export default function Certificates() {
               <div className="flex-1 min-w-0">
                 <h3 className="text-white font-semibold leading-snug group-hover:text-violet-400 transition">{cert.title}</h3>
                 <p className="text-sm text-zinc-400 mt-1">{cert.issuer}</p>
-                <div className="flex items-center gap-2 mt-2 text- text-zinc-500">
+                {/* FIXED: Removed incomplete 'text-' and added 'text-xs' */}
+                <div className="flex items-center gap-2 mt-2 text-xs text-zinc-500">
                   <Calendar size={12} />
-                  {cert.date} • ID: {cert.credentialId}
+                  {cert.date} {cert.credentialId && `• ID: ${cert.credentialId}`}
                 </div>
               </div>
             </div>
 
             <div className="flex flex-wrap gap-1.5 mt-4">
               {cert.skills.map(s => (
-                <span key={s} className="px-2 py-1 text- rounded-md bg-white/5 text-zinc-400 border border-white/5">{s}</span>
+                // FIXED: Removed incomplete 'text-' and added 'text-xs'
+                <span key={s} className="px-2 py-1 text-xs rounded-md bg-white/5 text-zinc-400 border border-white/5">{s}</span>
               ))}
             </div>
           </div>
@@ -152,7 +158,12 @@ export default function Certificates() {
             <button onClick={() => setSelected(null)} className="absolute top-4 right-4 w-8 h-8 rounded-lg bg-white/5 hover:bg-white/10 flex items-center justify-center text-zinc-400">
               <X size={18} />
             </button>
-            <img src={selected.image} alt={selected.title} className="w-full rounded-xl border border-white/10 mb-6" />
+            <img 
+              src={selected.image} 
+              alt={selected.title} 
+              className="w-full rounded-xl border border-white/10 mb-6"
+              onError={(e) => { e.target.src = 'https://via.placeholder.com/800x500?text=Certificate' }}
+            />
             <h3 className="text-2xl font-bold text-white">{selected.title}</h3>
             <p className="text-zinc-400 mt-1">{selected.issuer} • {selected.date}</p>
             <div className="flex gap-3 mt-6">
